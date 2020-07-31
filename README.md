@@ -1,24 +1,22 @@
-# README
+# Rails 6 with Jasmine
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- Install foreman
 
-Things you may want to cover:
+```bash
+gem install foreman
+```
 
-* Ruby version
 
-* System dependencies
+- Install the gems for the project
 
-* Configuration
+```bash
+bundle install
+```
 
-* Database creation
+- Start foreman
 
-* Database initialization
+```bash
+foreman start
+```
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Navigate to http://localhost:3000/jasmine in your browser
